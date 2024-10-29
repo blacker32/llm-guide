@@ -1,0 +1,529 @@
+{
+  "identity": {
+    "name": { "first": "string", "middle": "string", "last": "string" },
+    "birth": { "date": "YYYY-MM-DD", "place": "string", "nationality": "string" },
+    "gender": "string",
+    "marital_status": "string",
+    "identification": { 
+      "ssn": "string", 
+      "passport_number": "string", 
+      "national_id": "string", 
+      "driver_license": "string", 
+      "residence_permit": "string",
+      "tax_id": "string"
+    },
+    "ethnicity": "string",
+    "military_service": {
+      "status": "string",
+      "start_date": "YYYY-MM-DD",
+      "end_date": "YYYY-MM-DD"
+    }
+  },
+  "contact": {
+    "email": "string",
+    "phone": { "mobile": "string", "home": "string", "work": "string" },
+    "address": { 
+      "street": "string", 
+      "city": "string", 
+      "state": "string", 
+      "postal_code": "string", 
+      "country": "string" 
+    },
+    "emergency_contact": { "name": "string", "relationship": "string", "phone": "string" },
+    "sim_card": "string",
+    "social_media_accounts": [
+      {
+        "platform": "string",
+        "username": "string",
+        "url": "string"
+      }
+    ]
+  },
+  "physical_characteristics": {
+    "height": "number",  
+    "weight": "number",
+    "eye_color": "string",
+    "hair_color": "string",
+    "skin_tone": "string",
+    "tattoos": ["string"],
+    "body_measurements": { "chest": "number", "waist": "number", "hips": "number" },
+    "shoe_size": "number"
+  },
+  "biometric_data": {
+    "fingerprint": "binary",
+    "retina_scan": "binary",
+    "blood_type": "string"
+  },
+  "education": [
+    { 
+      "institution": "string", 
+      "degree": "string", 
+      "field_of_study": "string", 
+      "start_date": "YYYY-MM-DD", 
+      "end_date": "YYYY-MM-DD", 
+      "grade": "string",
+      "certifications": ["string"],
+      "extracurriculars": ["string"],
+      "diploma": "string",
+      "transcripts": ["string"],
+      "language_test_scores": [
+        {
+          "test_name": "string",
+          "score": "string",
+          "date": "YYYY-MM-DD"
+        }
+      ],
+      "academic_publications": [
+        {
+          "title": "string",
+          "publication_date": "YYYY-MM-DD",
+          "journal": "string"
+        }
+      ]
+    }
+  ],
+  "employment": [
+    { 
+      "company": "string", 
+      "position": "string", 
+      "start_date": "YYYY-MM-DD", 
+      "end_date": "YYYY-MM-DD", 
+      "responsibilities": ["string"], 
+      "achievements": ["string"], 
+      "projects": [{ 
+        "name": "string", 
+        "role": "string", 
+        "description": "string", 
+        "start_date": "YYYY-MM-DD", 
+        "end_date": "YYYY-MM-DD" 
+      }],
+      "employment_certificate": "string",
+      "performance_reviews": ["string"],
+      "references": [
+        {
+          "name": "string",
+          "position": "string",
+          "company": "string",
+          "contact": "string"
+        }
+      ],
+      "volunteer_work": [
+        {
+          "organization": "string",
+          "role": "string",
+          "start_date": "YYYY-MM-DD",
+          "end_date": "YYYY-MM-DD",
+          "description": "string"
+        }
+      ]
+    }
+  ],
+  "financial": {
+    "bank_accounts": [ 
+      { "bank_name": "string", "account_number": "string", "account_type": "string", "balance": "number" } 
+    ],
+    "credit_cards": [ 
+      { "issuer": "string", "card_number": "string", "expiration_date": "MM-YYYY", "credit_limit": "number", "balance": "number" } 
+    ],
+    "investments": [ 
+      { "type": "string", "provider": "string", "account_number": "string", "value": "number" } 
+    ],
+    "tax_records": [ 
+      { "year": "YYYY", "amount_paid": "number" } 
+    ],
+    "insurance_policies": [
+      { 
+        "policy_type": "string", 
+        "provider": "string", 
+        "policy_number": "string", 
+        "coverage_amount": "number" 
+      }
+    ],
+    "loans": [
+      { 
+        "loan_type": "string", 
+        "lender": "string", 
+        "loan_number": "string", 
+        "amount": "number", 
+        "interest_rate": "number", 
+        "start_date": "YYYY-MM-DD", 
+        "end_date": "YYYY-MM-DD", 
+        "status": "string" 
+      }
+    ],
+    "bills": [
+      { "type": "string", "provider": "string", "account_number": "string", "amount_due": "number", "due_date": "YYYY-MM-DD" }
+    ],
+    "credit_card_statements": ["string"],
+    "property_tax_records": ["string"],
+    "seizure_records": ["string"],
+    "real_estate": [
+      {
+        "property_type": "string",
+        "address": "string",
+        "value": "number",
+        "purchase_date": "YYYY-MM-DD",
+        "deed_number": "string",
+        "status": "string"
+      }
+    ],
+    "vehicles": [
+      {
+        "make": "string",
+        "model": "string",
+        "year": "string",
+        "vin": "string",
+        "license_plate": "string",
+        "purchase_date": "YYYY-MM-DD",
+        "status": "string"
+      }
+    ],
+    "investment_portfolios": [
+      {
+        "portfolio_name": "string",
+        "assets": [
+          {
+            "asset_type": "string",
+            "asset_name": "string",
+            "value": "number",
+            "purchase_date": "YYYY-MM-DD"
+          }
+        ]
+      }
+    ],
+    "retirement_plans": [
+      {
+        "plan_type": "string",
+        "provider": "string",
+        "account_number": "string",
+        "balance": "number"
+      }
+    ],
+    "cryptocurrency_wallets": [
+      {
+        "currency": "string",
+        "wallet_address": "string",
+        "balance": "number"
+      }
+    ],
+    "stock_holdings": [
+      {
+        "company": "string",
+        "symbol": "string",
+        "quantity": "number",
+        "purchase_price": "number",
+        "purchase_date": "YYYY-MM-DD"
+      }
+    ],
+    "life_insurance": [
+      {
+        "provider": "string",
+        "policy_number": "string",
+        "coverage_amount": "number",
+        "beneficiaries": ["string"]
+      }
+    ]
+  },
+  "medical": {
+    "blood_type": "string",
+    "allergies": ["string"],
+    "medications": [ { "name": "string", "dosage": "string", "frequency": "string" } ],
+    "immunizations": [ { "vaccine": "string", "date": "YYYY-MM-DD" } ],
+    "conditions": [ { "name": "string", "diagnosis_date": "YYYY-MM-DD", "notes": "string" } ],
+    "surgeries": [ { "procedure": "string", "date": "YYYY-MM-DD", "notes": "string" } ],
+    "mental_health": [ { "diagnosis": "string", "date": "YYYY-MM-DD", "notes": "string" } ],
+    "family_medical_history": [ { "condition": "string", "relative": "string", "diagnosis_date": "YYYY-MM-DD" } ],
+    "health_reports": ["string"],
+    "laboratory_results": ["string"],
+    "medical_appointments": [
+      {
+        "doctor": "string",
+        "date": "YYYY-MM-DD",
+        "time": "HH:MM",
+        "location": "string",
+        "reason": "string"
+      }
+    ],
+    "prescriptions": [
+      {
+        "medicine": "string",
+        "dosage": "string",
+        "frequency": "string",
+        "prescribed_by": "string",
+        "prescribed_date": "YYYY-MM-DD"
+      }
+    ],
+    "health_insurance": [
+      {
+        "provider": "string",
+        "policy_number": "string",
+        "coverage_amount": "number",
+        "start_date": "YYYY-MM-DD",
+        "end_date": "YYYY-MM-DD"
+      }
+    ],
+    "organ_donor_status": "string",
+    "genetic_test_results": [
+      {
+        "test_name": "string",
+        "result": "string",
+        "date": "YYYY-MM-DD"
+      }
+    ],
+    "dental_records": [
+      {
+        "procedure": "string",
+        "date": "YYYY-MM-DD",
+        "dentist": "string",
+        "notes": "string"
+      }
+    ]
+  },
+  "health_status": {
+    "chronic_conditions": [ { "condition": "string", "diagnosis_date": "YYYY-MM-DD", "notes": "string" } ],
+    "psychological_disorders": [ { "diagnosis": "string", "date": "YYYY-MM-DD", "notes": "string" } ],
+    "physical_disabilities": [ { "disability": "string", "notes": "string" } ]
+  },
+  "vision": {
+    "glasses": { "prescription": "string", "use_case": "string" },
+    "contact_lenses": { "prescription": "string", "use_case": "string" }
+  },
+  "social_profiles": [
+    { 
+      "platform": "string", 
+      "username": "string", 
+      "url": "string", 
+      "followers": "number", 
+      "posts": [
+        { "date": "YYYY-MM-DD", "content": "string", "likes": "number", "comments": ["string"] }
+      ] 
+    }
+  ],
+  "preferences": {
+    "hobbies": ["string"],
+    "languages": [ { "name": "string", "proficiency": "string" } ],
+    "dietary_preferences": "string",
+    "religion": "string",
+    "political_views": "string",
+    "travel_history": [ { "location": "string", "visit_date": "YYYY-MM-DD" } ],
+    "favorite_media": {
+      "movies": ["string"],
+      "books": ["string"],
+      "music": ["string"],
+      "games": ["string"]
+    },
+    "fitness_preferences": ["string"],
+    "leisure_activities": ["string"],
+    "family_information": [
+      {
+        "relation": "string",
+        "name": "string",
+        "birth_date": "YYYY-MM-DD",
+        "contact": "string"
+      }
+    ],
+    "membership_details": [
+      {
+        "club_name": "string",
+        "membership_id": "string",
+        "expiration_date": "YYYY-MM-DD"
+      }
+    ],
+    "dietary_habits": {
+      "diet_type": "string",
+      "restrictions": ["string"],
+      "preferences": ["string"]
+    },
+    "environmental_allergies": ["string"]
+  },
+  "legal": {
+    "criminal_record": [ { "offense": "string", "date": "YYYY-MM-DD", "jurisdiction": "string", "status": "string" } ],
+    "civil_cases": [ { "case_type": "string", "date": "YYYY-MM-DD", "jurisdiction": "string", "status": "string" } ],
+    "traffic_violations": [ { "violation_type": "string", "date": "YYYY-MM-DD", "jurisdiction": "string", "fine": "number" } ],
+    "legal_agreements": [
+      {
+        "agreement_type": "string",
+        "provider": "string",
+        "agreement_number": "string",
+        "start_date": "YYYY-MM-DD",
+        "end_date": "YYYY-MM-DD",
+        "status": "string"
+      }
+    ],
+    "intellectual_property": [
+      {
+        "type": "string",
+        "name": "string",
+        "registration_number": "string",
+        "registration_date": "YYYY-MM-DD",
+        "status": "string"
+      }
+    ],
+    "compliance_records": [
+      {
+        "compliance_type": "string",
+        "date": "YYYY-MM-DD",
+        "issuer": "string",
+        "status": "string"
+      }
+    ],
+    "background_checks": [
+      {
+        "check_type": "string",
+        "date": "YYYY-MM-DD",
+        "issuer": "string",
+        "result": "string"
+      }
+    ],
+    "visa_and_residency": [
+      {
+        "type": "string",
+        "country": "string",
+        "issue_date": "YYYY-MM-DD",
+        "expiry_date": "YYYY-MM-DD",
+        "status": "string"
+      }
+    ]
+  },
+  "documents": {
+    "cv": "string",
+    "exam_certificates": ["string"],
+    "notarized_documents": ["string"],
+    "court_records": ["string"],
+    "property_tax_records": ["string"],
+    "seizure_records": ["string"],
+    "health_reports": ["string"],
+    "laboratory_results": ["string"],
+    "credit_card_statements": ["string"],
+    "shopping_receipts": ["string"],
+    "utility_bills": ["string"],
+    "professional_certifications": ["string"],
+    "professional_memberships": ["string"],
+    "publications": ["string"],
+    "presentations_and_workshops": ["string"],
+    "awards_and_honors": ["string"]
+  },
+  "technology_and_devices": {
+    "devices": [
+      {
+        "type": "string",
+        "brand": "string",
+        "model": "string",
+        "purchase_date": "YYYY-MM-DD",
+        "status": "string"
+      }
+    ],
+    "software_and_apps": [
+      {
+        "name": "string",
+        "version": "string",
+        "installation_date": "YYYY-MM-DD",
+        "status": "string"
+      }
+    ],
+    "online_security": {
+      "password_management": "string",
+      "two_factor_authentication": "string",
+      "security_software": ["string"]
+    },
+    "internet_service_provider": {
+      "name": "string",
+      "plan": "string",
+      "speed": "string",
+      "contract_end_date": "YYYY-MM-DD"
+    },
+    "gaming_accounts": [
+      {
+        "platform": "string",
+        "username": "string",
+        "email": "string"
+      }
+    ]
+  },
+  "education_and_training": {
+    "continuing_education": [
+      {
+        "course_name": "string",
+        "provider": "string",
+        "start_date": "YYYY-MM-DD",
+        "end_date": "YYYY-MM-DD",
+        "certificate": "string"
+      }
+    ],
+    "mentorship_and_coaching": [
+      {
+        "mentor_name": "string",
+        "start_date": "YYYY-MM-DD",
+        "end_date": "YYYY-MM-DD",
+        "description": "string"
+      }
+    ]
+  },
+  "personal_development": {
+    "goals": [
+      {
+        "category": "string",
+        "description": "string",
+        "target_date": "YYYY-MM-DD",
+        "status": "string"
+      }
+    ],
+    "skills": [
+      {
+        "name": "string",
+        "proficiency_level": "string",
+        "years_of_experience": "number"
+      }
+    ],
+    "personal_achievements": [
+      {
+        "title": "string",
+        "date": "YYYY-MM-DD",
+        "description": "string"
+      }
+    ]
+  },
+  "pets": [
+    {
+      "type": "string",
+      "name": "string",
+      "breed": "string",
+      "age": "number",
+      "medical_records": [
+        {
+          "procedure": "string",
+          "date": "YYYY-MM-DD",
+          "veterinarian": "string"
+        }
+      ]
+    }
+  ],
+  "travel": {
+    "passports": [
+      {
+        "country": "string",
+        "passport_number": "string",
+        "issue_date": "YYYY-MM-DD",
+        "expiry_date": "YYYY-MM-DD"
+      }
+    ],
+    "travel_insurance": [
+      {
+        "provider": "string",
+        "policy_number": "string",
+        "coverage_dates": {
+          "start": "YYYY-MM-DD",
+          "end": "YYYY-MM-DD"
+        }
+      }
+    ],
+    "frequent_flyer_programs": [
+      {
+        "airline": "string",
+        "program_name": "string",
+        "membership_number": "string",
+        "status": "string"
+      }
+    ]
+  }
+}
