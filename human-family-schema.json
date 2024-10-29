@@ -1,0 +1,92 @@
+"family": {
+  "parents": [
+    {
+      "relationship": "mother",
+      "name": {
+        "first": "string",
+        "middle": "string",
+        "last": "string"
+      },
+      "date_of_birth": "YYYY-MM-DD",
+      "contact": {
+        "phone": "string",
+        "email": "string",
+        "address": {
+          "street": "string",
+          "city": "string",
+          "state": "string",
+          "postal_code": "string",
+          "country": "string"
+        }
+      },
+      "occupation": "string",
+      "education": [
+        {
+          "institution": "string",
+          "degree": "string",
+          "field_of_study": "string",
+          "graduation_date": "YYYY-MM-DD"
+        }
+      ]
+    },
+    {
+      "relationship": "father",
+      "name": {
+        "first": "string",
+        "middle": "string",
+        "last": "string"
+      },
+      "date_of_birth": "YYYY-MM-DD",
+      "contact": {
+        "phone": "string",
+        "email": "string",
+        "address": {
+          "street": "string",
+          "city": "string",
+          "state": "string",
+          "postal_code": "string",
+          "country": "string"
+        }
+      },
+      "occupation": "string",
+      "education": [
+        {
+          "institution": "string",
+          "degree": "string",
+          "field_of_study": "string",
+          "graduation_date": "YYYY-MM-DD"
+        }
+      ]
+    }
+  ],
+  "siblings": [
+    {
+      "relationship": "sister/brother",
+      "name": {
+        "first": "string",
+        "middle": "string",
+        "last": "string"
+      },
+      "date_of_birth": "YYYY-MM-DD",
+      "contact": {
+        "phone": "string",
+        "email": "string"
+      }
+    }
+  ],
+  "extended_family": [
+    {
+      "relationship": "aunt/uncle/grandparent",
+      "name": {
+        "first": "string",
+        "middle": "string",
+        "last": "string"
+      },
+      "date_of_birth": "YYYY-MM-DD",
+      "contact": {
+        "phone": "string",
+        "email": "string"
+      }
+    }
+  ]
+}
